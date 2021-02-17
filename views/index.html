@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<link rel="stylesheet" href="/pubilc/css/style.css">-->
+
+    <style>
+        df-messenger {
+            --df-messenger-bot-message: #3cb12f;
+            --df-messenger-button-titlebar-font-color: black;
+            --df-messenger-button-titlebar-color: #ffffff;
+            --df-messenger-chat-background-color: #fafafa;
+            --df-messenger-font-color: white;
+            --df-messenger-send-icon: #878fac;
+            --df-messenger-user-message: rgb(42, 94, 42);
+        }
+    </style>
+</head>
+<body>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+        intent="WELCOME"
+        chat-title="신영 Smart챗봇"
+        agent-id="7dd22936-1440-4eef-be60-3ee33e6b69c6"
+        language-code="ko"
+        chat-icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSatuwQnVGZJrqKaKc34bJjySyI-QQW-udsCA&usqp=CAU"
+    ></df-messenger>
+</body>
+</html>
